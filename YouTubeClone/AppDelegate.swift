@@ -1,7 +1,3 @@
-//
-//  AppDelegate.swift
-//  YouTube
-
 import UIKit
 
 @UIApplicationMain
@@ -13,9 +9,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        VideoUtils.saveToPhotoLibaray(videoURL: Bundle.main.url(forResource: "SampleMovies/sample_movie_2", withExtension: "mp4")!)
         window = UIWindow()
         window?.makeKeyAndVisible()
-//        window?.rootViewController = UINavigationController(rootViewController: HomeViewController())
         window?.rootViewController = AuthViewController()
-//        window?.rootViewController = PostViewController()
         UINavigationBar.appearance().barTintColor = .appColorLight
         UINavigationBar.appearance().shadowImage = UIImage()
         UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)

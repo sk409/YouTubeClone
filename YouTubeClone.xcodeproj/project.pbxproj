@@ -35,6 +35,7 @@
 		D76DA21222BF8418005CFD93 /* VideoLauncher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76DA21122BF8418005CFD93 /* VideoLauncher.swift */; };
 		D76DA21422BF8430005CFD93 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D76DA21322BF8430005CFD93 /* VideoPlayerView.swift */; };
 		D78565C222DB54FD0096CEAD /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78565C122DB54FD0096CEAD /* PostViewController.swift */; };
+		D78928E522DC94E900BA9B4F /* Server in Resources */ = {isa = PBXBuildFile; fileRef = D78928E422DC94E900BA9B4F /* Server */; };
 		D7BB13F922DC30D8009724D3 /* UIViewController+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BB13F822DC30D8009724D3 /* UIViewController+alert.swift */; };
 		D7FE44E122D96D5600EB272B /* ElapsedTimeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FE44E022D96D5600EB272B /* ElapsedTimeSlider.swift */; };
 		D7FE44E322D96E6B00EB272B /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FE44E222D96E6B00EB272B /* AccountViewController.swift */; };
@@ -71,6 +72,7 @@
 		D76DA21122BF8418005CFD93 /* VideoLauncher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoLauncher.swift; sourceTree = "<group>"; };
 		D76DA21322BF8430005CFD93 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
 		D78565C122DB54FD0096CEAD /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		D78928E422DC94E900BA9B4F /* Server */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Server; sourceTree = SOURCE_ROOT; };
 		D7BB13F822DC30D8009724D3 /* UIViewController+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+alert.swift"; sourceTree = "<group>"; };
 		D7FE44E022D96D5600EB272B /* ElapsedTimeSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElapsedTimeSlider.swift; sourceTree = "<group>"; };
 		D7FE44E222D96E6B00EB272B /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 				D76DA1E622BE0021005CFD93 /* Assets.xcassets */,
 				D76DA1E822BE0021005CFD93 /* LaunchScreen.storyboard */,
 				D76DA1EB22BE0021005CFD93 /* Info.plist */,
+				D78928E422DC94E900BA9B4F /* Server */,
 				D7558D0622C37465007950DD /* SampleMovies */,
 			);
 			path = YouTubeClone;
@@ -265,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7558D0722C37465007950DD /* SampleMovies in Resources */,
+				D78928E522DC94E900BA9B4F /* Server in Resources */,
 				D76DA1EA22BE0021005CFD93 /* LaunchScreen.storyboard in Resources */,
 				D76DA1E722BE0021005CFD93 /* Assets.xcassets in Resources */,
 			);
